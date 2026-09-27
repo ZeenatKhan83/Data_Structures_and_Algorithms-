@@ -3,6 +3,7 @@ using namespace std;
 int main(){
   int n;
   cout<<"Enter size of Array: ";
+  cin>>n;
 
   int arr[n];
   cout<<"Enter elements of array: "<<endl;
@@ -14,8 +15,9 @@ int main(){
   for(int i=0; i<n; i++){
     cout<<arr[i]<<" ";
   }
-
-  bool visited[i];
+   cout<<endl;
+   
+  bool visited[n];
   for(int i=0; i<n; i++){
     visited[i] = false;
   }
